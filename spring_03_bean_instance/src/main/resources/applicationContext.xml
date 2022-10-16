@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean id="userDao" class="com.dcxuexi.dao.impl.UserDaoImpl" />-->
+
+<!--    <bean id="regionDao" class="com.dcxuexi.factory.RegionDaoFactory" factory-method="getRegionDao" />-->
+
+<!--    <bean id="orderDaoFactory" class="com.dcxuexi.factory.OrderDaoFactory" />-->
+<!--    <bean id="orderDao" factory-method="getOrderDao" factory-bean="orderDaoFactory" />-->
+    <bean id="userDao" class="com.dcxuexi.factory.UserDaoFactoryBean" />
+
+</beans>
