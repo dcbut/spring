@@ -4,4 +4,4 @@
 - spring_02_bean : Spring项目bean基础配置代码
 - spring_03_bean_instance : Spring项目bean实例化代码
 - spring_04_bean_life : Spring项目bean的生命周期
-- 
+- spring_04_setter : Spring项目setter注入
