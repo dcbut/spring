@@ -6,3 +6,6 @@
 - spring_04_bean_life : Spring项目bean的生命周期
 - spring_04_setter : Spring项目setter注入
 - spring_04_contructer : Spring项目构造器注入
+- spring_04_auto : Spring项目自动装配
+- spring_04_collection : Spring项目集合注入
+- 

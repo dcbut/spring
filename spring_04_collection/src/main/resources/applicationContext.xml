@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userDao" class="com.dcxuexi.dao.impl.UserDaoImpl" >
+        <property name="array">
+            <array>
+                <value>1</value>
+                <value>2</value>
+                <value>3</value>
+            </array>
+        </property>
+        <property name="set">
+            <set>
+                <value>zhangsan</value>
+                <value>lisi</value>
+                <value>wangwu</value>
+            </set>
+        </property>
+        <property name="list">
+            <list>
+                <value>blue</value>
+                <value>red</value>
+                <value>green</value>
+            </list>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="name" value="xiaochuang" />
+                <entry key="age" value="20" />
+                <entry key="address" value="shanghai" />
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="ip">192.168.1.110</prop>
+                <prop key="port">18080</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>
