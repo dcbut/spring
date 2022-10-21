@@ -8,4 +8,5 @@
 - spring_04_contructer : Spring项目构造器注入
 - spring_04_auto : Spring项目自动装配
 - spring_04_collection : Spring项目集合注入
+- spring_05_datesource : Spring项目 IOC/DI配置管理第三方bean
 - 
