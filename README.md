@@ -9,4 +9,5 @@
 - spring_04_auto : Spring项目自动装配
 - spring_04_collection : Spring项目集合注入
 - spring_05_datesource : Spring项目 IOC/DI配置管理第三方bean
+- spring_06_container : Spring项目核心容器
 - 
