@@ -12,7 +12,9 @@
 - spring_06_container : Spring项目核心容器
 - spring_07_annotation : Spring项目IOC/DI注解开发
 - spring_07_annotation_bean : Spring项目IOC/DI注解开发,bean作用范围与生命周期管理
+- spring_08_third_bean : Spring项目IOC/DI注解开发管理第三方bean
 - 
+
 
 **代码下载地址:**
 - [gitee项目代码下载](https://gitee.com/DchuangDB/sping-projeck)
