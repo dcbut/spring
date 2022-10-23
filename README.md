@@ -13,7 +13,9 @@
 - spring_07_annotation : Spring项目IOC/DI注解开发
 - spring_07_annotation_bean : Spring项目IOC/DI注解开发,bean作用范围与生命周期管理
 - spring_08_third_bean : Spring项目IOC/DI注解开发管理第三方bean
-- 
+- spring_09_jdbc : Spring项目 整合数据库
+- spring_09_mybatis : Spring项目整合mybatis
+- spring_09_junit : Spring项目整合Junit
 
 
 **代码下载地址:**
