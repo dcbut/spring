@@ -20,4 +20,19 @@ public class UserDaoImpl implements UserDao {
     public void update() {
         System.out.println("UserDao update, ......");
     }
+
+    public void insert(){
+        System.out.println("UserDao insert, ......");
+    }
 }
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,7 @@
 package com.dcxuexi;
 
 import com.dcxuexi.config.SpringConfig;
+import com.dcxuexi.dao.CityDao;
 import com.dcxuexi.dao.UserDao;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -17,6 +18,14 @@ public class SpringAopFrist {
         ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
         UserDao userDao = context.getBean(UserDao.class);
         //userDao.select();
-        userDao.update();
+        //auserDao.update();
+        //userDao.insert();
+        System.out.println(userDao);
+        System.out.println(userDao.getClass());
+        System.out.println("==============================");
+        //CityDao cityDao = context.getBean(CityDao.class);
+        //System.out.println(cityDao);
+        //System.out.println(cityDao.getClass());
+
     }
 }

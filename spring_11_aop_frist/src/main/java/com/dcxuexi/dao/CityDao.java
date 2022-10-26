@@ -1,14 +1,13 @@
 package com.dcxuexi.dao;
 
 /***
- * @Title UserDao
+ * @Title CityDao
  * @Description TOTD
  * @Auter DongChuang
- * @Date 2022/10/24 20:31
+ * @Date 2022/10/26 20:38
  * @Version 1.0.0
  */
-public interface UserDao {
-    public void select();
+public interface CityDao {
     public void update();
     public void insert();
 }
