@@ -35,7 +35,7 @@ public class UserDaoImpl implements UserDao {
 
     public int update() {
         System.out.println("UserDao update, running ......");
-        int i = 1/0;
+        //int i = 1/0;
         return 99;
     }
 }
