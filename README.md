@@ -17,10 +17,12 @@
 - spring_09_mybatis : Spring项目整合mybatis
 - spring_09_junit : Spring项目整合Junit
 - spring_10_aop : Spring项目AOP简介
-- spring_11_aop_frist : Spring项目AOP入门案例
+- spring_11_aop_frist : Spring项目AOP入门案例 / Spring项目AOP工作流程 / Spring项目AOP切入点表达式
+- spring_12_aop_adviceType :  Spring项目AOP通知类型
+- spring_12_aop_case_interface_run_speed :  Spring项目AOP业务层接口执行效率
+- spring_13_aop_advice_data :  Spring项目AOP通知获取数据
+- spring_14_aop_case_handle_password :  Spring项目AOP百度网盘密码数据兼容处理
 - 
-- 
-
 
 
 **代码下载地址:**

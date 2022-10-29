@@ -17,9 +17,12 @@ import org.springframework.stereotype.Component;
 public class MyAdvice {
 
     @Pointcut("execution(void com.dcxuexi.dao.impl.UserDaoImpl.update())")
-    public void pt(){}
+    public void ptUpdate(){}
 
-    @Before("pt()")
+    @Pointcut("execution(void com.dcxuexi.dao.impl.UserDaoImpl.insert())")
+    public void ptInsert(){}
+
+    @Before("ptUpdate()")
     public void methodBefore(){
         System.out.println(System.currentTimeMillis());
     }
