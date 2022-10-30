@@ -22,6 +22,7 @@
 - spring_12_aop_case_interface_run_speed :  Spring项目AOP业务层接口执行效率
 - spring_13_aop_advice_data :  Spring项目AOP通知获取数据
 - spring_14_aop_case_handle_password :  Spring项目AOP百度网盘密码数据兼容处理
+- spring_15_case_transfer : Spring项目AOP事务管理
 - 
 
 
